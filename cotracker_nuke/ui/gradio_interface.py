@@ -981,14 +981,14 @@ class GradioInterface:
         """Create and return the Gradio interface."""
         with gr.Blocks(
             title="CoTracker Nuke Integration",
-            theme=gr.themes.Soft(),
-            css="""
-            .gradio-container {max-width: 1200px; margin: auto; width: 100%;}
-            .yellow-button {background-color: #ff8c00 !important; color: #000 !important; border: 2px solid #e67e00 !important;}
-            .yellow-button:hover {background-color: #e67e00 !important; color: #000 !important;}
-            .green-button {background-color: #2e7d32 !important; color: #fff !important; border: 2px solid #1b5e20 !important;}
-            .green-button:hover {background-color: #1b5e20 !important; color: #fff !important;}
-            """
+            # theme=gr.themes.Soft(),
+            # css="""
+            # .gradio-container {max-width: 1200px; margin: auto; width: 100%;}
+            # .yellow-button {background-color: #ff8c00 !important; color: #000 !important; border: 2px solid #e67e00 !important;}
+            # .yellow-button:hover {background-color: #e67e00 !important; color: #000 !important;}
+            # .green-button {background-color: #2e7d32 !important; color: #fff !important; border: 2px solid #1b5e20 !important;}
+            # .green-button:hover {background-color: #1b5e20 !important; color: #fff !important;}
+            # """
         ) as interface:
             
             gr.Markdown("""
